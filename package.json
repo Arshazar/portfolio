@@ -1,5 +1,5 @@
 {
-  "name": "iPortfolio",
+  "name": "portfolio",
   "private": true,
   "description": "Arshavir Azarfar",
   "version": "1.0.0",
@@ -26,7 +26,6 @@
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
-    "react-device-detect": "^1.13.1",
     "react-dom": "^16.12.0",
     "react-gsap": "^2.2.1",
     "react-helmet": "^6.1.0",
@@ -43,9 +42,9 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "dev": "gatsby develop",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run dev",
     "serve": "gatsby serve",
