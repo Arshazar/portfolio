@@ -3,5 +3,5 @@ Used technologies for this project:
 
   * GatsbyJS
   * Webgl
-  * Gsap
+  * GSAP
   * ThreeJS
